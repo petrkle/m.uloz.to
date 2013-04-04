@@ -1,0 +1,18 @@
+{
+  "name": "m.uloz.to",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Zjednodušení m.uloz.to",
+	"icons": { "16": "m_logo.png",
+           "48": "m_logo.png",
+					"128": "m_logo.png"	},
+	"content_scripts": [
+			{
+				"matches": ["http://m.uloz.to/*"],
+				"css": ["uloz.css"]
+			}
+		],
+  "permissions": [
+    "http://m.ulot.to/"
+  ]
+}
